@@ -1,0 +1,15 @@
+# ai-coding
+CLAUDE.md
+AGENTS.md
+GEMINI.md
+
+.claude/
+/.codex
+/.gemini
+
+# IDE
+/.idea
+/.vscode
+
+# system
+.DS_Store
