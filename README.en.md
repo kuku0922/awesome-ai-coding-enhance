@@ -29,6 +29,7 @@ awesome-ai-coding-enhance/
 │           └── go-backend-development-prompt.md
 ├── commands/                   # AI coding enhancement commands
 │   ├── git-commit.md          # Smart Git commit with multiple message options
+│   ├── git-rollback.md        # Enterprise-grade Git rollback with multi-tier safety modes
 │   └── [more commands coming soon]
 ├── README.md                   # Main documentation (Chinese)
 ├── README.en.md               # English documentation
@@ -73,11 +74,13 @@ Prompts provides production-ready AI coding prompts suitable for various AI-driv
 
 Commands provide pre-built, production-ready slash commands for AI coding assistants. These commands automate common development tasks and enhance productivity:
 
-- 🚀 **Smart Git Operations** with intelligent commit message generation
-- 🎯 **Three-Tier Message Options**: Concise, Detailed, and Minimalist versions
+- 🚀 **Smart Git Operations** with intelligent commit message generation and safe rollback functionality
+- 🎯 **Multi-Tier Message Options**: Concise, Detailed, and Minimalist versions
+- 🛡️ **Enterprise-Grade Safety** multi-tier protection modes and collaborative impact analysis
 - 🌍 **Intelligent Analysis** of code changes for optimal commit messages
 - 🔧 **Auto-Selection Modes** for different workflow preferences
 - 📋 **Convention Compliance** following Conventional Commits standards
+- 📊 **Audit Trail** complete operation logs and backup strategies
 
 #### ⚡ Available Commands
 
@@ -89,6 +92,17 @@ Commands provide pre-built, production-ready slash commands for AI coding assist
 - **Conventional Commits**: Follows industry standards for commit message format
 - **Smart Splitting**: Suggests splitting large changes into multiple focused commits
 - **Auto-Selection**: Bypass interactive selection with pre-defined message types
+
+##### Enterprise Git Rollback
+
+**Features**:
+- **Four Safety Modes**: Quick, Safe Preview, Comprehensive Analysis, and Standard modes
+- **Automatic Backup Creation**: Timestamped backup branches for every rollback
+- **Collaborative Impact Detection**: Scans for active contributors and warns about potential conflicts
+- **CI/CD Integration**: Pipeline status verification and dependency relationship analysis
+- **Audit Trail**: Detailed rollback logs and enterprise-grade compliance support
+- **Team Notifications**: Automated team communication templates and suggestions
+- **Bilingual Support**: Provides both Chinese and English documentation
 
 #### Contribution Methods
 
