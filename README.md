@@ -12,7 +12,7 @@
 
 ## ✨ 项目概述
 
-**Awesome AI Coding Enhance** 提供 Claude Code 开发过程中的增强工具，包含 Prompts、Subagens、Skills、Hooks、Plugins 等。同时希望这些增强工具能够通过修改、完善、组合应用于更多的 AI Coding CLI 或 IDE 中，不断增强开发效率和准确性。
+**Awesome AI Coding Enhance** 提供 Claude Code 开发过程中的增强工具，包含 Prompts、Subagents、Skills、Hooks、Plugins 等。同时希望这些增强工具能够通过修改、完善、组合应用于更多的 AI Coding CLI 或 IDE 中，不断增强开发效率和准确性。
 
 ### 📁 项目结构
 
@@ -32,6 +32,10 @@ awesome-ai-coding-enhance/
 │   ├── git-commit.md          # 智能Git提交，支持多种消息选项
 │   ├── git-rollback.md        # 企业级Git回滚，多层安全模式
 │   └── [更多命令即将推出]
+├── hooks/                      # 开发工作流钩子
+├── other-prompts/              # 其他AI提示词模板
+├── skills/                     # 技能增强工具
+│   └── go-gin-generator/       # Go Gin 项目生成器
 ├── README.md                   # 主要文档（中文）
 ├── README.en.md               # 英文文档
 ├── LICENSE                     # MIT许可证
@@ -105,6 +109,22 @@ Commands为AI编码助手提供预构建的、生产就绪的斜杠命令。这�
 - **团队通知**：自动生成团队沟通模板和建议
 - **双语支持**：提供中文和英文版本文档
 
+### 🛠️ Skills
+
+Skills 为 Claude Code 提供专业级的开发工具，通过智能生成器加速项目开发：
+
+#### 🚀 Go Gin 项目生成器
+
+**功能**：生产级 Go Gin 框架项目生成器，支持现代最佳实践
+
+**特性**：
+- 🏗️ **4 种项目类型**：REST API、Web应用、微服务、gRPC服务
+- 📊 **动态版本管理**：自动查询框架最新稳定版本
+- 🗄️ **多数据库支持**：PostgreSQL、MySQL、SQLite + GORM集成
+- 🔐 **安全认证**：JWT认证、密码哈希、CORS支持
+- 🔧 **开发工具集成**：Air热重载、测试框架、代码检查、Swagger文档
+- 📋 **自动化脚本**：完整的Makefile、构建脚本、部署脚本
+- 📚 **参考文档**：包含Go项目标准、Gin最佳实践、包注册表
 
 #### 贡献方式
 

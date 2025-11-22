@@ -13,6 +13,22 @@
 
 **Awesome AI Coding Enhance** provides enhancement tools for Claude Code development process, including Prompts, Subagents, Skills, Hooks, Plugins, etc. We also hope these enhancement tools can be applied to more AI Coding CLI or IDE through modification, improvement, and combination to continuously enhance development efficiency and accuracy.
 
+### 🎯 Key Features
+
+- 🚀 **Comprehensive Enhancement**: Complete AI coding enhancement ecosystem covering from prompts to workflows
+- 🛠️ **Production Ready**: All tools are validated in real projects and ready for production use
+- 🌍 **Bilingual Support**: Complete Chinese and English support for global development teams
+- 🔧 **Ready to Use**: Plug-and-play workflows without complex configuration
+- 🏗️ **Modular Design**: Independent modules that can be combined as needed
+- 🔄 **Continuous Updates**: Optimized and expanded based on latest AI coding practices
+
+### 🎯 Use Cases
+
+- 🚀 **Individual Developers**: Boost coding efficiency and reduce repetitive work
+- 👥 **Development Teams**: Unify coding standards and improve team collaboration
+- 🏢 **Enterprise Applications**: Establish standardized AI coding workflows
+- 📚 **Learning & Growth**: Learn best practices through high-quality prompts
+
 ### 📁 Project Structure
 
 ```
@@ -31,6 +47,10 @@ awesome-ai-coding-enhance/
 │   ├── git-commit.md          # Smart Git commit with multiple message options
 │   ├── git-rollback.md        # Enterprise-grade Git rollback with multi-tier safety modes
 │   └── [more commands coming soon]
+├── hooks/                      # Development workflow hooks
+├── other-prompts/              # Other AI prompt templates
+├── skills/                     # Skill enhancement tools
+│   └── go-gin-generator/       # Go Gin project generator
 ├── README.md                   # Main documentation (Chinese)
 ├── README.en.md               # English documentation
 ├── LICENSE                     # MIT License
@@ -103,6 +123,23 @@ Commands provide pre-built, production-ready slash commands for AI coding assist
 - **Audit Trail**: Detailed rollback logs and enterprise-grade compliance support
 - **Team Notifications**: Automated team communication templates and suggestions
 - **Bilingual Support**: Provides both Chinese and English documentation
+
+### 🛠️ Skills
+
+Skills provide professional-grade development tools for Claude Code, accelerating project development through intelligent generators:
+
+#### 🚀 Go Gin Project Generator
+
+**Function**: Production-grade Go Gin framework project generator with modern best practices
+
+**Features**:
+- 🏗️ **4 Project Types**: REST API, Web Application, Microservice, gRPC Service
+- 📊 **Dynamic Version Management**: Automatically queries framework latest stable versions
+- 🗄️ **Multi-Database Support**: PostgreSQL, MySQL, SQLite + GORM integration
+- 🔐 **Security Authentication**: JWT authentication, password hashing, CORS support
+- 🔧 **Development Tools Integration**: Air hot reload, testing framework, linting, Swagger docs
+- 📋 **Automation Scripts**: Complete Makefile, build scripts, deployment scripts
+- 📚 **Reference Documentation**: Go project standards, Gin best practices, package registry
 
 #### Contribution Methods
 
