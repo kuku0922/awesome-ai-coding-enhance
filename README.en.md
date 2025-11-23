@@ -50,7 +50,8 @@ awesome-ai-coding-enhance/
 ├── hooks/                      # Development workflow hooks
 ├── other-prompts/              # Other AI prompt templates
 ├── skills/                     # Skill enhancement tools
-│   └── go-gin-generator/       # Go Gin project generator
+│   ├── go-gin-generator/       # Go Gin project generator
+│   └── vue3-generator/         # Vue 3 project generator
 ├── README.md                   # Main documentation (Chinese)
 ├── README.en.md               # English documentation
 ├── LICENSE                     # MIT License
@@ -140,6 +141,20 @@ Skills provide professional-grade development tools for Claude Code, acceleratin
 - 🔧 **Development Tools Integration**: Air hot reload, testing framework, linting, Swagger docs
 - 📋 **Automation Scripts**: Complete Makefile, build scripts, deployment scripts
 - 📚 **Reference Documentation**: Go project standards, Gin best practices, package registry
+
+#### 🎨 Vue 3 Project Generator
+
+**Function**: Production-grade Vue 3 frontend project generator with modern toolchain and best practices
+
+**Features**:
+- 🎯 **4 Project Types**: Single Page Application (SPA), Progressive Web App (PWA), Component Library, Admin Dashboard
+- 📦 **Modern Tech Stack**: Vue 3 + TypeScript + Vite + Vue Router + Pinia
+- 🚀 **Dynamic Version Management**: Automatically queries Vue ecosystem latest stable versions
+- 🛠️ **Development Tools Integration**: ESLint, Prettier, Husky, Commitizen, Vitest
+- 📱 **PWA Support**: Service Worker configuration and offline functionality
+- 🎨 **Styling Options**: Support for Tailwind CSS, Bootstrap and other CSS frameworks
+- 📋 **Automation Scripts**: Environment checking, dependency management, project initialization
+- 📚 **Reference Documentation**: Vue 3 best practices, TypeScript configuration, modern frontend development patterns
 
 #### Contribution Methods
 

@@ -35,7 +35,8 @@ awesome-ai-coding-enhance/
 ├── hooks/                      # 开发工作流钩子
 ├── other-prompts/              # 其他AI提示词模板
 ├── skills/                     # 技能增强工具
-│   └── go-gin-generator/       # Go Gin 项目生成器
+│   ├── go-gin-generator/       # Go Gin 项目生成器
+│   └── vue3-generator/         # Vue 3 项目生成器
 ├── README.md                   # 主要文档（中文）
 ├── README.en.md               # 英文文档
 ├── LICENSE                     # MIT许可证
@@ -125,6 +126,20 @@ Skills 为 Claude Code 提供专业级的开发工具，通过智能生成器加
 - 🔧 **开发工具集成**：Air热重载、测试框架、代码检查、Swagger文档
 - 📋 **自动化脚本**：完整的Makefile、构建脚本、部署脚本
 - 📚 **参考文档**：包含Go项目标准、Gin最佳实践、包注册表
+
+#### 🎨 Vue 3 项目生成器
+
+**功能**：生产级 Vue 3 前端项目生成器，集成现代工具链和最佳实践
+
+**特性**：
+- 🎯 **4 种项目类型**：单页应用(SPA)、渐进式Web应用(PWA)、组件库、管理面板
+- 📦 **现代技术栈**：Vue 3 + TypeScript + Vite + Vue Router + Pinia
+- 🚀 **动态版本管理**：自动查询Vue生态最新稳定版本
+- 🛠️ **开发工具集成**：ESLint、Prettier、Husky、Commitizen、Vitest
+- 📱 **PWA支持**：Service Worker配置和离线功能
+- 🎨 **样式选项**：支持Tailwind CSS、Bootstrap等CSS框架
+- 📋 **自动化脚本**：环境检查、依赖管理、项目初始化
+- 📚 **参考文档**：Vue 3最佳实践、TypeScript配置、现代前端开发模式
 
 #### 贡献方式
 
