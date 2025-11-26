@@ -18,29 +18,30 @@
 
 ```
 awesome-ai-coding-enhance/
-├── prompts/                    # 高质量AI编码提示词库
-│   └── claude-code-global/     # Claude Code全局提示词
-│       ├── zh/                 # 中文版本（3个提示词）
+├── prompts/                    
+│   └── claude-code-global/     
+│       ├── zh/                 
 │       │   ├── senior-fullstack-engineer-claude-zh.md
 │       │   ├── vue-frontend-development-prompt-zh.md
 │       │   └── go-backend-development-prompt-zh.md
-│       └── en/                 # 英文版本（3个提示词）
+│       └── en/                 
 │           ├── senior-fullstack-engineer-claude-en.md
 │           ├── vue-frontend-development-prompt.md
 │           └── go-backend-development-prompt.md
-├── commands/                   # AI编码增强命令
-│   ├── git-commit.md          # 智能Git提交，支持多种消息选项
-│   ├── git-rollback.md        # 企业级Git回滚，多层安全模式
-│   └── [更多命令即将推出]
-├── hooks/                      # 开发工作流钩子
-├── other-prompts/              # 其他AI提示词模板
-├── skills/                     # 技能增强工具
+├── commands/
+│   ├── git-branch-create.md    # 完整的企业级Git分支创建
+│   ├── git-branch.md           # 精简的快速Git分支创建，日常开发使用
+│   ├── git-commit.md           # 智能Git提交，支持多种消息选项
+│   └── git-rollback.md         # 企业级Git回滚，多层安全模式
+├── hooks/                      
+├── other-prompts/              
+├── skills/                     
 │   ├── go-gin-generator/       # Go Gin 项目生成器
 │   └── vue3-generator/         # Vue 3 项目生成器
 ├── README.md                   # 主要文档（中文）
-├── README.en.md               # 英文文档
+├── README.en.md                # 英文文档
 ├── LICENSE                     # MIT许可证
-└── .gitignore                 # Git忽略文件
+└── .gitignore                  # Git忽略文件
 ```
 
 ### 📝 Prompts
@@ -80,15 +81,33 @@ Prompts 提供生产就绪的AI编码提示词，适用于AI驱动的各种开�
 
 Commands为AI编码助手提供预构建的、生产就绪的斜杠命令。这些命令自动化常见开发任务并提升生产力：
 
-- 🚀 **智能Git操作** 配合智能提交消息生成和安全回滚功能
-- 🎯 **多层消息选项**：简洁版、详细版和极简版
+- 🚀 **智能Git操作** 配合智能提交消息生成、安全回滚功能和智能分支管理
+- 🎯 **分层命令设计** 企业级完整功能 vs 日常开发快速操作
 - 🛡️ **企业级安全** 多层保护模式和协作影响分析
 - 🌍 **智能分析** 代码变更以生成最佳提交消息
 - 🔧 **自动选择模式** 适应不同工作流偏好
-- 📋 **规范遵循** 遵循约定式提交标准
+- 📋 **规范遵循** 遵循约定式提交标准和分支命名规范
 - 📊 **审计追踪** 完整的操作记录和备份策略
 
 #### ⚡ 可用命令
+
+##### 企业级Git分支创建
+
+**特性**:
+- **完整企业级功能**：交互式GitHub分支创建，具备全面的验证和分析
+- **综合安全模式**：多种安全等级，适合企业环境使用
+- **协作影响分析**：分析分支创建对团队的影响
+- **CI/CD集成**：与持续集成流水线完整配合
+- **审计追踪**：企业级操作记录和合规支持
+- **双语界面**：完整的中英文用户界面
+
+##### 快速Git分支创建
+
+**特性**:
+- **精简快速操作**：一次收集所有信息，快速创建分支
+- **核心安全验证**：基础验证和冲突检测
+- **灵活参数支持**：支持命令行参数直接指定
+- **日常开发优化**：适合频繁的日常分支操作
 
 ##### 智能Git提交
 

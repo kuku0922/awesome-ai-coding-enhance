@@ -44,6 +44,8 @@ awesome-ai-coding-enhance/
 │           ├── vue-frontend-development-prompt.md
 │           └── go-backend-development-prompt.md
 ├── commands/                   # AI coding enhancement commands
+│   ├── git-branch-create.md   # Enterprise-grade Git branch creation with AI translation
+│   ├── git-branch.md          # Quick Git branch creation for daily development
 │   ├── git-commit.md          # Smart Git commit with multiple message options
 │   ├── git-rollback.md        # Enterprise-grade Git rollback with multi-tier safety modes
 │   └── [more commands coming soon]
@@ -95,15 +97,33 @@ Prompts provides production-ready AI coding prompts suitable for various AI-driv
 
 Commands provide pre-built, production-ready slash commands for AI coding assistants. These commands automate common development tasks and enhance productivity:
 
-- 🚀 **Smart Git Operations** with intelligent commit message generation and safe rollback functionality
-- 🎯 **Multi-Tier Message Options**: Concise, Detailed, and Minimalist versions
+- 🚀 **Smart Git Operations** with intelligent commit message generation, safe rollback functionality, and smart branch management
+- 🎯 **Tiered Command Design** Enterprise-grade full features vs daily development quick operations
 - 🛡️ **Enterprise-Grade Safety** multi-tier protection modes and collaborative impact analysis
 - 🌍 **Intelligent Analysis** of code changes for optimal commit messages
 - 🔧 **Auto-Selection Modes** for different workflow preferences
-- 📋 **Convention Compliance** following Conventional Commits standards
+- 📋 **Convention Compliance** following Conventional Commits standards and branch naming conventions
 - 📊 **Audit Trail** complete operation logs and backup strategies
 
 #### ⚡ Available Commands
+
+##### Enterprise Git Branch Creation
+
+**Features**:
+- **Complete Enterprise Features**: Interactive GitHub branch creation with comprehensive validation and analysis
+- **Comprehensive Safety Modes**: Multiple safety levels suitable for enterprise environments
+- **Collaborative Impact Analysis**: Analyzes the impact of branch creation on team collaboration
+- **CI/CD Integration**: Full integration with continuous integration pipelines
+- **Audit Trail**: Enterprise-grade operation logging and compliance support
+- **Bilingual Interface**: Complete Chinese and English user interface
+
+##### Quick Git Branch Creation
+
+**Features**:
+- **Streamlined Quick Operations**: One-time information collection for rapid branch creation
+- **Core Safety Validation**: Essential validation and conflict detection
+- **Flexible Parameter Support**: Command-line parameter support for direct specification
+- **Daily Development Optimized**: Perfect for frequent daily branch operations
 
 ##### Smart Git Commit
 
